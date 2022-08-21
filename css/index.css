@@ -630,7 +630,8 @@ textarea.form-control{
     height: 140px;
 }
 /*footer*/
- .footer{
+ /*
+.footer{
 	 flex:0 0 0 100%;
 	 max-width:100%;
 	 background:dark;
@@ -655,7 +656,9 @@ textarea.form-control{
     padding: 10px;
     font-size: 15px;
     letter-spacing: 2px;
-	color:black;
+color:black;
+}
+*/
 /*Resposive*/
 @media (max-width:1199px) {
    .aside{
