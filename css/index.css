@@ -637,6 +637,7 @@ textarea.form-control{
    .Main-content{
     padding-left:0;
     padding-right:0px;
+    width:100%;
    }
    .info-item p span{
     display: block;
@@ -652,6 +653,7 @@ textarea.form-control{
     .Main-content{
         padding-left:0px;
         padding-right:0px;
+        width:100%;
     }
     .contact-info-item,
     .portfolio-item,
@@ -687,6 +689,7 @@ textarea.form-control{
      .Main-content{
         padding-left:0px;
         padding-right:0px;
+         width:100%;
 }
 
 
