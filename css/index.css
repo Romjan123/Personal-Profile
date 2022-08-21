@@ -682,5 +682,11 @@ textarea.form-control{
     .personal-info{
         flex: 0 0 100%;
         max-width: 100%;
+  
     }
+     .Main-content{
+        padding-left:0px;
+        padding-right:0px;
 }
+
+
