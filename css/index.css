@@ -629,6 +629,33 @@ service-item-inner h4{
 textarea.form-control{
     height: 140px;
 }
+/*footer*/
+ .footer{
+	 flex:0 0 0 100%;
+	 max-width:100%;
+	 background:dark;
+ }
+#Details{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid var(--bg-black-50);
+    color: white;
+}
+#Details h5{
+    font-size:17px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    box-shadow: 3px 13px 10 ;
+	color:black;
+}
+#Details h6{
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 2px;
+	color:black;
 /*Resposive*/
 @media (max-width:1199px) {
    .aside{
