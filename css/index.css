@@ -26,7 +26,7 @@ ul{
     list-style: none;
 }
 .section{
-    background: dark;
+    background:#000000;
     min-height: 100vh;
     display: block;
     padding: 0 30px;
@@ -38,7 +38,7 @@ ul{
 .Main-content{
     padding-left: 270px;
     padding-top: 180px;
-    background:dark;
+    background:#000000;
 }
 .row{
     display: flex;
