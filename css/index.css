@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,600&display=swap');
 :root{
-    --bg-black-900:#f2f2fc;
+    --bg-black-900: #f2f2fc;
     --bg-black-100:#fdf9ff;
     --bg-black-50:#e8dfec;
     --text-black-900:#302e4d;
@@ -18,6 +17,7 @@ body{
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
+    color: #b3aaaa;
 }
 ::before,::after{
     box-sizing: border-box;
@@ -26,7 +26,7 @@ ul{
     list-style: none;
 }
 .section{
-    background: var(--bg-black-900);
+    background: #000000;
     min-height: 100vh;
     display: block;
     padding: 0 30px;
@@ -38,7 +38,7 @@ ul{
 .Main-content{
     padding-left: 270px;
     padding-top: 180px;
-    background: var(--bg-black-900)
+    background: #000000;
 }
 .row{
     display: flex;
@@ -81,7 +81,7 @@ ul{
 }
 .section-title h2{
     font-size: 40px;
-    color: var(--text-black-900);
+    color: #f0f0f5;
     font-weight: 700;
     position: relative;
 }
@@ -110,7 +110,7 @@ ul{
 }
 .aside{
     width: 270px;
-    background: var(--bg-black-100);
+    background: #868289;
     position: fixed;
     left: 0;
     top: 0;
@@ -127,6 +127,7 @@ ul{
     top: 50px;
     font-size: 20px;
     text-transform: capitalize;
+    color: aliceblue;
 }
 .aside .logo a{
     color: var(--bg-black-700);
@@ -212,8 +213,9 @@ ul{
     font-weight: 600;
     display: block;
     border-bottom: 1px solid var(--bg-black-50);
-    color: var(--bg-black-800);
+    /* color: var(--bg-black-800); */
     padding: 5px 15px;
+    color: #ffffff;
 }
 .aside .nav li a.active{
     color: var(--skin-color);
@@ -233,6 +235,7 @@ margin-right: 15px;
 h3.hello{
     font-size: 28px;
     margin: 15px 0;
+    color: white;
 }
 h3.hello span{
     font-family: 'Clicker Script' ,cursive;
@@ -302,7 +305,7 @@ h3 my-profession{
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: 700;
-    color: var(--text-black-900);
+    color: #dfdee7;
 }
 .about-text h3 span{
     color: var(--skin-color);
@@ -325,12 +328,12 @@ h3 my-profession{
     font-weight: 600;
     padding: 10px 0px;
     font-size: 16px;
-    color: var(--text-black-900);
+    color: #d3d2d9;
     border-bottom: 1px solid var(--bg-black-50);
 }
 .info-item p span{
     font-weight: 400;
-    color: var(--text-black-700);
+    color: #b4b4b9;
     margin-left: 4px;
     display: inline-block;
 }
@@ -355,7 +358,7 @@ h3 my-profession{
     line-height: 40px;
     font-weight: 600;
     font-size: 16px;
-    color: var(--text-black-900);
+    color: #d7d6e1;
     text-transform: capitalize;
 }
 .progress{
@@ -400,7 +403,7 @@ h3 my-profession{
     font-size: 24px;
     margin-bottom: 30px;
     font-weight: 700;
-    color: var(--text-black-900);
+    color: #d8d7e1;
 }
 .timeline-box{
     flex: 0 0 100%;
@@ -563,7 +566,7 @@ service-item-inner h4{
     margin-bottom: 20px;
 }
 .contact-sub-title{
-    color: var(--text-black-900);
+    color: #efeef7;
     text-align: center;
     font-size: 15px;
     margin-bottom:60px;
@@ -584,14 +587,14 @@ service-item-inner h4{
 .contact-info-item h4{
     font-size: 18px;
     font-weight: 700;
-    color: var(--text-black-900);
+    color: #ebeaf5;
     text-transform: capitalize;
     /*margin: 15px 0 5px;*/
 }
 .contact-info-item p{
     font-size: 15px;
     line-height:25px;
-    color: var(--text-black-700);
+    color: #c2c1cb;
     font-weight: 400;
 }
 .contact-form{
